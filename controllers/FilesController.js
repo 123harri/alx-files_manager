@@ -10,7 +10,6 @@ import {
 import { join as joinPath } from 'path';
 import { Request, Response } from 'express';
 import { contentType } from 'mime-types';
-// eslint-disable-next-line import/no-unresolved
 import mongoDBCore from 'mongodb/lib/core';
 import dbClient from '../utils/db';
 import { getUserFromXToken } from '../utils/auth';
